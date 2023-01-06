@@ -98,11 +98,7 @@ For example, this is how you would list them:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. For course projects, include which file to execute and the format of any input variables.
-
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Roughly 2500 images were sampled from the [State Farm Distracted Dataset](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data). The images were then reshaped to 300x300, flattened, and saved to an array named "data_small.npy." The respective labels, distracted or alert, were also saved in a datafile named "labels_small.npy." The script used to train the CNN calls on these datafiles. The Jupyter notebook can be found [here](https://github.com/Andres-G-Gomez/distracted-drivers/blob/main/transfer_learning.ipynb).
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -150,4 +146,4 @@ You can acknowledge any individual, group, institution or service.
 
 ## Thank you
 
-<!-- If this is useful: [![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/catiaspsilva) -->
+<!-- If this is useful: [![Buy me a coffee](https://www.buymeacoffee.com/andresgg)](https://www.buymeacoffee.com/andresgg) -->
