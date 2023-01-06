@@ -8,16 +8,7 @@
   <h3 align="center">README Template</h3>
 
   <p align="center">
-    A README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="#usage">View Demo</a>
-    ·
-    <a href="https://github.com/catiaspsilva/README-template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/catiaspsilva/README-template/issues">Request Feature</a>
+
   </p>
 </p>
 
@@ -54,49 +45,50 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this section you should describe your project, including any datasets you used and appropriate citations. You may refer to your project report or cite your paper for more detailed information.
+  The leading cause of fatal accidents in the U.S. is due to distracted driving. Although self-driving technologies are becoming commercially prevalent in the U.S., drivers are expected to be fully alert, prepared to take over at any moment. Many newer vehicles are equipped with driver alert systems, which monitor a driver’s behavior either through data collected from external sensors or through a camera system and warn or alert the driver when unsafe behavior is detected. This work will apply and compare various deep learning models to the publicly available State Farm Distracted Driver Detection dataset as well as estimate tighter risk bounds of false positives for distracted drivers than would generally be obtained through confidence intervals. Risk bound characterizations, like binomial proportion confidence intervals, will be determined.
 
-[Here goes the title with hyperlink](https://github.com/catiaspsilva/README-template)
+[Read the full paper here](https://github.com/Andres-G-Gomez/distracted-drivers/blob/main/final_paper.pdf)
 
-You can include tables or images to summarize your results when and if appropriate.
+[View the PowerPoint](https://github.com/Andres-G-Gomez/distracted-drivers/blob/main/presentation.pdf)
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-In this section you should provide instructions on how to use this repository to recreate your project locally.
 
 ### Dependencies
 
 Here, list all libraries, packages and other dependencies that need to be installed to run your project. Include library versions and how they should be installed if a special requirement is needed.
 
 For example, this is how you would list them:
-* Transformers 4.8.0
+* Numpy 1.23.0
   ```sh
-  conda install -c conda-forge transformers
+  pip install numpy 1.23.0
   ```
-* OpenCV 4.5.2
+* Tensorflow 2.9.1
   ```sh
-  conda install -c conda-forge opencv
+  pip install tensorflow 2.9.1
   ```
-### Alternative: Export your Environment
-
-Alternatively, you can export your Python working environment, push it to your project's repository and allow users to clone it locally. This way, anyone can install it and they will have all dependencies needed. Here is how you export a copy of your Python environment:
-
+* Pandas 1.1.3
   ```sh
-  conda env export > requirements.yml
+  pip install pandas 1.1.3
   ```
-
-The user will be able to recreate it using:
-
+* Sklearn 0.23.2
   ```sh
-  conda env create -f requirements.yml
+  pip install scikit-learn 0.23.2
   ```
-
+* Skimage 0.17.2
+  ```sh
+  pip install scikit-image 0.17.2
+  ```
+* Statsmodels 0.12.0
+  ```sh
+  pip install statsmodels 0.12.0
+  ```
+ 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/catiaspsilva/README-template.git
+   git clone https://github.com/Andres-G-Gomez/distracted-drivers
    ```
 2. Setup (and activate) your environment
   ```sh
@@ -115,7 +107,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Andres-G-Gomez/distracted-drivers/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -138,9 +130,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Authors -->
 ## Authors
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Andres Gomez - [@AndresG0508](https://twitter.com/AndresG0508) - Andresggomez@ufl.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Andres-G-Gomez/distracted-drivers](https://github.com/Andres-G-Gomez/distracted-drivers)
 
 
 <!-- ACKNOWLEDGEMENTS -->
