@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/catiaspsilva/README-template">
-    <img src="images/gators.jpg" alt="Logo" width="150" height="150">
+    <img src="images/images.PNG" alt="Logo" width="300" height="300">
   </a>
 
   <h3 align="center">README Template</h3>
