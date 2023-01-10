@@ -98,7 +98,7 @@ For example, this is how you would list them:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Roughly 2500 images were sampled from the [State Farm Distracted Dataset](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data). The images were then reshaped to 300x300, flattened, and saved to an array named "data_small.npy." The respective labels, distracted or alert, were also saved in a datafile named "labels_small.npy." The script used to train the CNN calls on these datafiles. The Jupyter notebook can be found [here](https://github.com/Andres-G-Gomez/distracted-drivers/blob/main/transfer_learning.ipynb).
+Roughly 2500 images were sampled from the [State Farm Distracted Dataset](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data). The images were then reshaped to 300x300, flattened, and saved to an array named "data_small.npy." The respective labels, distracted or alert, were also saved in a datafile named "labels_small.npy." The script used to train the CNN calls on these datafiles. The Jupyter notebook can be found [here](https://github.com/Andres-G-Gomez/distracted-drivers/blob/main/final_CNN_etc.ipynb).
 
 <!-- ROADMAP -->
 ## Roadmap
