@@ -5,8 +5,6 @@
     <img src="images/images.PNG" alt="Logo" width="300" height="300">
   </a>
 
-  <h3 align="center">README Template</h3>
-
   <p align="center">
 
   </p>
